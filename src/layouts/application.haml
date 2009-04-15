@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title Dandee Lions : Clothing - If we'd wear it, it's here
+    = stylesheets
+  %body
+    #header
+      .container_12.clearfix
+        %img{:src => "/images/dandee-lions-logo.png"}
+        %span.slogan If we'd wear it, it's here
+    #navigation
+      .container_12.clearfix
+        %span.item Clothing
+    #content
+      .container_12.clearfix
+        = yield
+    #footer
+      .container_12.clearfix
+        &copy; 2009 - Dandee Lions

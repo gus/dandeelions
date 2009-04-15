@@ -1,0 +1,28 @@
+!sans = "'Helvetica Neue', Helvetica, 'Liberation Sans', Arial, sans-serif"
+!serif = "Georgia, serif"
+!lion = #dac400
+
+body
+  :font = "normal 1em/1.5em " + !sans
+
+#header
+  :padding 1ex 0
+  img
+    :vertical-align -20%
+  .slogan
+    :padding 0 0 0 2em
+    :font = "italic 1.25em " + !serif
+    :color = !lion
+
+#navigation
+  :font-size 1.5em
+  :padding .5ex 0
+  :background-color #eee
+  .item
+    :color #555
+    :text-transform uppercase
+    :font-weight bold
+    
+#footer
+  :font-size 75%
+  :color #aaa
