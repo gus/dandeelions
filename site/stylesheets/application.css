@@ -12,13 +12,19 @@ body {
 
 #navigation {
   font-size: 1.5em;
-  padding: .5ex 0;
+  padding: 1ex 0;
   background-color: #eee; }
-  #navigation .item {
-    color: #555;
+  #navigation .filter {
+    cursor: pointer;
+    padding: 0 1ex 0 0;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    color: #999; }
+    #navigation .filter.active {
+      color: #555; }
 
+#content h3 {
+  font-weight: bold; }
 #content .design {
   text-align: center;
   margin: 1ex 0; }
