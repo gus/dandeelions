@@ -1,0 +1,28 @@
+body {
+  font: normal 1em/1.5em 'Helvetica Neue', Helvetica, 'Liberation Sans', Arial, sans-serif; }
+
+#header {
+  padding: 1ex 0; }
+  #header img {
+    vertical-align: -20%; }
+  #header .slogan {
+    padding: 0 0 0 2em;
+    font: italic 1.25em Georgia, serif;
+    color: #dac400; }
+
+#navigation {
+  font-size: 1.5em;
+  padding: .5ex 0;
+  background-color: #eee; }
+  #navigation .item {
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+#content .design {
+  text-align: center;
+  margin: 1ex 0; }
+
+#footer {
+  font-size: 75%;
+  color: #aaa; }
