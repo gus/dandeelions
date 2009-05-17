@@ -7,27 +7,41 @@ body {
     vertical-align: -20%; }
   #header .slogan {
     padding: 0 0 0 2em;
-    font: italic 1.25em Georgia, serif;
-    color: #dac400; }
+    font: bold normal 1.5em'Helvetica Neue', Helvetica, 'Liberation Sans', Arial, sans-serif;
+    color: #917b6b; }
 
 #navigation {
   font-size: 1.5em;
   padding: 1ex 0;
   background-color: #eee; }
-  #navigation .filter {
+  #navigation a, #navigation a:visited, #navigation .filter {
     cursor: pointer;
     padding: 0 1ex 0 0;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     color: #999; }
-    #navigation .filter.active {
+    #navigation a.active,     #navigation a:visited.active,     #navigation .filter.active {
       color: #555; }
+    #navigation a:hover,     #navigation a:visited:hover,     #navigation .filter:hover {
+      color: #bbb; }
 
+#content h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 1ex 0 .5ex 0;
+  margin: 0 0 .5ex 0;
+  color: #555; }
 #content h3 {
+  padding: 1em 0 .5ex 0;
   font-weight: bold; }
 #content .design {
   text-align: center;
   margin: 1ex 0; }
+#content .label {
+  font-weight: bold; }
+#content p {
+  padding: 1ex 0; }
 
 #footer {
   font-size: 75%;

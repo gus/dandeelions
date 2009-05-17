@@ -1,0 +1,42 @@
+-
+  name: tm-logo-abdominal
+  category: brand
+  title: Flagship
+  designer: Gus
+  description: Flagship is the first shirt design for Dandee Lions. Designed by Gus, it was simply something he wanted to wear that could proudly display the brand and stuff without being too boring or slick or whatever. This shirt gets the job done right in the simples way possible.
+-
+  name: tax-payer
+  category: aggro
+  title: Bar none
+  designer: Gus
+  description: Don't you just feel like a number when it comes to paying taxes? Yeah. We stinking do, too. Taxes suck. Being a number sucks. So tell everyone how the hell you feel about it.
+-
+  name: ass-u-me
+  category: code
+  title: That's what you get when you...
+  designer: Gus
+  description: I don't know? I was sitting around one night and this little bit of ruby code popped into my head and I though "That'd make a great friggin' t-shirt!" So, I put it on a shirt and there it is. Go throw it into a ruby interpreter to see what it does.
+-
+  name: word
+  category: code
+  title: Regularly expressing thyself
+  designer: Gus
+  description: Word, yo! I got sick of everyone saying and writing word so I made my own regular expression to match any word ... so now any word is word. <p>I say, "Know what I'm saying?"</p><p>You say, "/\w+/"</p>
+-
+  name: choosy-heretics
+  category: brand aggro
+  title: Inquisition
+  designer: Gus
+  description: This shirt is unholy and aggressive. You best watch out! This shirt is born from our little plugin called <a href="http://github.com/thumblemonks/inquisition">Inquisition</a> written by Alex Rakoczy. He thought it was funny. I thought it was funny. Planets aligned. Worlds collided. Shirts were forged.
+-
+  name: life-without-pointers
+  category: code
+  title: You'll get it when you C it
+  designer: Gus
+  description: I had a college professor who taught C++, but loved to basically stay in C land and futz with pointers. "*p" being the canonical way of expressing pointers in example code, he just one say said what you see on that shirt.
+-
+  name: qr-code
+  category: brand
+  title: Brand-tacular
+  designer: Gus
+  description: If you know anything about QR codes, then you know what this is. What you don't know (yet) is what this one says. Find a QR code scanner for your phone or computer and find out!

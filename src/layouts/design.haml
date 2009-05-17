@@ -2,7 +2,7 @@
 !!!
 %html
   %head
-    %title Dandee Lions : Clothing - Fun with cotton
+    %title== Dandee Lions : #{@design.title} - #{@design.name}
     = stylesheets
   %body
     = partial('header')
@@ -11,5 +11,3 @@
       .container_12.clearfix
         = yield
     = partial('footer')
-  = javascripts('jquery-1.3.2.min', 'design_filter')
-  

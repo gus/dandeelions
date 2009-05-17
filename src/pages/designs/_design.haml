@@ -1,0 +1,16 @@
+- @design = find_design(design_name)
+- @layout = "design"
+.grid_6.alpha
+  %h1= @design.title
+  - design_img(@design.name, @design.title)
+
+.grid_6.omega
+  %h3 What's this shirt about?
+  = @design.description
+
+  %h3 Who the heck designed this?
+  = @design.designer
+  did
+
+  %h3 In a word or two, how would you classify this shirt?
+  = display_category(@design.category)
