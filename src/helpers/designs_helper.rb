@@ -17,7 +17,7 @@ module DesignsHelper
 
   # %a{ :href => "/designs/[name]" }
   def design_link(filename, title)
-    haml_tag(:a, :href => "/designs/#{filename}") { design_img(filename, title) }
+    haml_tag(:a, :href => "/designs/#{filename}.html") { design_img(filename, title) }
   end
 
   # %img{ :src => "/images/designs/[name].png", :title => [title] }
